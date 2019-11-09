@@ -35,7 +35,7 @@ public class HBaseClientOperations {
      * </tr>
      * </table>
      */
-    private final TableName table1 = TableName.valueOf("Table1");
+    private final TableName table1 = TableName.valueOf("Table2");
     private final String family1 = "Family1";
     private final String family2 = "Family2";
 
@@ -173,8 +173,8 @@ public class HBaseClientOperations {
             put(admin, table);
             get(table);
             scan(table);
-            filters(table);
-            delete(table);
+            //filters(table);
+           // delete(table);
         }
     }
 
