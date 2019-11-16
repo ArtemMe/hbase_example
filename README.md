@@ -16,3 +16,6 @@ rowkey - ключ
 <table, RowKey, Column Family, Column, timestamp> -> Value
 
 Веб консоль БД: http://hbase-docker:16010/master-status
+
+
+Отличный докер контейнер с hbase и всеми приблудами: https://github.com/dajobe/hbase-docker    
