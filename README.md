@@ -19,3 +19,5 @@ rowkey - ключ
 
 
 Отличный докер контейнер с hbase и всеми приблудами: https://github.com/dajobe/hbase-docker    
+Консоль:
+hbase shell
